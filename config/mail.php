@@ -111,7 +111,8 @@ return [
         'theme' => 'default',
 
         'paths' => [
-            resource_path('views/vendor/mail'),
+            //resource_path('views/vendor/mail'),
+            base_path('templates/vendor/emails'),
         ],
     ],
 

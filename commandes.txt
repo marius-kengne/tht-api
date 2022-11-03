@@ -1,0 +1,8 @@
+************** creation du controller de mail  **************
+
+php artisan make:mail OrderShipped --markdown=emails.orders.shipped
+
+
+************** creation du controller de notification  **************
+
+php artisan make:notification InvoicePaid
